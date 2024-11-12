@@ -329,13 +329,15 @@ border-top: none;
   color: #434455;
 }
 
-.footer {
+.footer{
   background-color:#2e2f42;
-  line-height: 1.17
+  line-height: 1.17;
+  padding: 100px 0;
+  
 }
 
- .footer-container{
-  padding: 100px 0;
+.footer-container{
+  
 
 }
 .footer-logo .logo-part{
