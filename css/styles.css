@@ -332,10 +332,10 @@ border-top: none;
 .footer {
   background-color:#2e2f42;
   line-height: 1.17
-  padding: 100px 0;
 }
 
-.footer-container{
+ .footer-container{
+  padding: 100px 0;
 
 }
 .footer-logo .logo-part{
@@ -345,7 +345,7 @@ border-top: none;
 
 .footer-logo{
  display: inline-block;
-margin-bottom: 16px; 
+ margin-bottom: 16px; 
 
 }
 .footer-text {
