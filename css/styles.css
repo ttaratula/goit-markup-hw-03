@@ -6,19 +6,45 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a{
   text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
 .header {
   font-size: 18px;
   line-height: 1.17;
+  border-bottom: 1px solid #e7e9fc;
+  
+}
+
+.section{
+ padding: 120px 0;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+ max-width: 1158px;
+ padding: 0 15px;
+ margin: 0 auto;
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
 }
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -28,11 +54,19 @@ a{
    font-size: 18px;
 }
 
+.header-logo{
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .header-logo .logo-part{
   color: #2e2f42; 
 }
 
 .header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-link {
@@ -42,6 +76,8 @@ a{
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-family: inherit;
+  display: block;
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -51,11 +87,18 @@ a{
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
+
 .adress-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -72,13 +115,27 @@ a{
   background-color: #2e2f42; 
   line-height: 1.07;
   text-align: center;
+  padding: 188px 0;
 }
+
+.solution-container{
+  
+  
+}
+
 .solutions-title {
+  justify-content: space-between;
   letter-spacing: 0.02em;
   font-size: 56px;
   color: #fff;
   background: #2e2f42;
+  width: 496px; 
+  margin: auto;
+  margin-bottom: 48px;
+  align-items: center;
+
 }
+
 .solution-button {
   background: #4d5ae5;
   letter-spacing: 0.04em;
@@ -88,7 +145,13 @@ a{
   line-height: 1.5;
   color: #fff;
   cursor: pointer;
-  font-weight: 500;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  min-width: 169px;
+  min-height: 56px;
+  border: none;
+  display: block;
 }
 
 .solution-button:focus,
@@ -100,9 +163,16 @@ a{
 }
 .content-title {
 }
+
 .content-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
+
 .content-item {
+  width: 264px;
+ 
 }
 .content-subtitle {
   font-weight: 500;
@@ -110,6 +180,7 @@ a{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .content-text {
   font-size: 16px;
@@ -117,8 +188,10 @@ a{
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .team {
   background-color: #F4F4FD;
+  text-align: center;
 }
 .team-title {
   text-align: center;
@@ -128,21 +201,35 @@ a{
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
 }
 .team-img {
+ 
 }
+
+
+.team-info{
+ padding: 32px 16px;
+ align-content: center;
+ 
+}
+
 .team-subtitle {
   line-height: 1.2;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .team-text {
   font-size: 16px;
@@ -153,7 +240,7 @@ a{
 }
 
 .portfolio {
-  text-align: center;
+  
 }
 .portfolio-title {
   font-size: 36px;
@@ -161,13 +248,34 @@ a{
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .portfolio-list {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  
 }
+
 .portfolio-item {
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 2 * 24px) / 3);
+
+ 
+  
 }
 .portfolio-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
 }
+
+.portfolio-info{
+padding: 32px 16px;
+}
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -184,10 +292,16 @@ a{
 .footer {
   background-color:#2e2f42;
   line-height: 1.17
+  padding: 100px 0;
 }
 .footer-logo .logo-part{
   font-size: 18px;
   color: #f4f4fd;
+}
+
+.footer-logo{
+ display: inline-block;
+
 }
 .footer-text {
   font-weight: 400;
@@ -195,4 +309,6 @@ a{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
+  width: 264px;
 }
