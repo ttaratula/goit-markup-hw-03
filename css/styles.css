@@ -239,6 +239,7 @@ h1,h2,h3,h4,h5,h6,p{
   width: calc((100% - 72px) / 4);
 }
 .team-img {
+  width: 100%;
  
 }
 
@@ -266,6 +267,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .portfolio {
+  padding: 64px 0 72px;
   
 }
 
@@ -277,7 +279,6 @@ h1,h2,h3,h4,h5,h6,p{
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-
   text-align: center;
 }
 .portfolio-list {
@@ -296,6 +297,7 @@ h1,h2,h3,h4,h5,h6,p{
   display: block;
   max-width: 100%;
   height: auto;
+
 
 }
 
