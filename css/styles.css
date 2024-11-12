@@ -211,11 +211,12 @@ h1,h2,h3,h4,h5,h6,p{
   background-color: #F4F4FD;
   text-align: center;
   display: block;
-  padding: 64px 0 72px;
+  padding: 87px 0 72px;
+ 
 }
 
 .container-team{
-  padding: 32px 0;
+
 }
 
 .team-title {
@@ -241,6 +242,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .team-img {
   width: 100%;
+  display: block;
  
 }
 
@@ -268,7 +270,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .portfolio {
-  padding: 64px 0 72px;
+  padding: 97px 0 72px;
   
 }
 
