@@ -168,6 +168,7 @@ h1,h2,h3,h4,h5,h6,p{
   width: 264px;
   
 }
+
 .visually-hidden{
   position: absolute;  
   width: 1px; 
@@ -188,7 +189,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .content-item {
-  
+  width: calc((100% - 72px) / 4);
  
 }
 .content-subtitle {
@@ -235,6 +236,7 @@ h1,h2,h3,h4,h5,h6,p{
 .team-item {
   background-color: #FFFFFF;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-img {
  
@@ -242,7 +244,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 .team-info{
- padding: 32px 16px;
+ padding: 32px 0px;
  align-content: center;
  
 }
@@ -300,6 +302,7 @@ h1,h2,h3,h4,h5,h6,p{
 .portfolio-apps{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
+border-top: none;
 }
 
 .portfolio-subtitle {
@@ -328,7 +331,7 @@ border: 1px solid #e7e9fc;
 
 .footer-logo{
  display: inline-block;
-
+margin-bottom: 16px; 
 }
 .footer-text {
   font-weight: 400;
