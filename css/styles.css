@@ -211,6 +211,7 @@ h1,h2,h3,h4,h5,h6,p{
   background-color: #F4F4FD;
   text-align: center;
   display: block;
+  padding: 64px 0 72px;
 }
 
 .container-team{
